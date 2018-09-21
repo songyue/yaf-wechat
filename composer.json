@@ -1,0 +1,24 @@
+{
+    "name": "songyue/yaf-wechat",
+    "description": "WeChat SDK for Yaf, based on overtrue/easywechat 4.0",
+    "keywords": ["yaf","easywechat","wechat"],
+    "homepage": "https://github.com/songyue/yaf-wechat",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Song Yue",
+            "email": "songyue118@gmail.com",
+            "homepage": "http://github.com/songyue",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Songyue\\YafWechat\\": "src/"
+        } 
+    },
+    "require": {
+        "php": ">=7.0",
+        "overtrue/wechat": "~4.0"
+    }
+}
